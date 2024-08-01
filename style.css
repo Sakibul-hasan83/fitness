@@ -1,0 +1,966 @@
+*{
+
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+body{
+
+    background-color: #0e0c0c;
+    color: white;
+    padding: 50px 200px;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+/* style of navigation */
+
+.nav-logo{
+
+font-size: 48px;
+font-weight: 1000px;
+color: tomato;
+
+
+}
+.nav-part{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color:white;
+    align-items: center;
+    text-align: center;
+}
+
+.icon{
+
+   margin-right: px;
+   display: none;
+}
+
+
+.nav-options{
+
+
+    display: flex;
+           flex-direction: row;
+              gap:50px;
+              border: 1px solid rgb(63, 60, 60);
+              height: 35px;
+         
+              align-items: center;
+              border-radius:20px;
+            margin-left: 400px;
+            
+              
+        }
+
+ .option{
+
+    border-radius: 20px;
+   
+    
+    height: 35px;
+    margin: 0px 0px;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    align-content:center;
+  
+    
+ }       
+
+ #option-home{
+    background-color: tomato;
+
+    
+
+ }
+
+
+ /* joining area */
+
+.Joining-part{
+
+    margin-top: 50px;
+    
+     display:flex;
+     flex-direction: row;
+     justify-content:space-between;
+     gap: px;
+
+}
+
+
+
+
+ .joining-options{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: ;
+
+  
+    
+ }
+
+ .options-h2{
+
+    font-size: 90px;
+    font-weight:bold;
+ }
+
+ .options-p{
+
+    color: rgb(138, 123, 123);
+    margin-top: 10px;
+    margin-bottom: 50px;
+ }
+
+ .joining-button{
+
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    color: white;
+    background-color: tomato;
+  
+ }
+
+ .button-join{
+   width: 200px;
+    height: 50px;
+    background-color: tomato;
+    border-radius: 30px;
+
+ }
+ #button-download{
+background-color:#353131; 
+border: 1px solid white;
+ }
+
+
+ .joining-photo{
+
+  height: 600px;
+  width: 400px;
+   background-image: url(./images/joiningphoto.png);
+   background-repeat: no-repeat;
+   margin-right: 150px;
+  
+ }
+
+ .joining-token{
+
+    height: 80px;
+    width: 160px;
+    border: 2px solid white;
+    border-radius: 10px;
+    align-content: center;
+    backdrop-filter:blur(24px);
+ }
+
+
+
+ #joining-token1{
+ 
+   margin-left: 230px;
+   margin-top: 150px;
+
+
+ text-align:center;
+ align-items: center;
+ padding: 5px 5px;
+ padding:5px;
+
+
+
+ }
+#joining-token2{
+   
+margin-top: 150px;
+margin-left: -70px;
+display: flex;
+align-items: center;
+padding:5px 5px;
+text-align: center;
+padding:5px;
+
+}
+
+.circle{
+height: 40px;
+width: 40px;
+background-color: tomato;
+border-radius: 70%;
+
+}
+
+.joining-token{
+   
+   flex-direction: row;
+   justify-content: space-between;
+  
+
+}
+
+.h2{
+
+   font-size: 50px;
+   font-weight: 800;
+}
+
+.habbit-title{
+
+   text-align: center;
+   margin-top: 100px;
+}
+
+
+/* Habbits part */
+
+
+.habbits img{
+  margin-top: 50px;
+   height:200px; 
+   width: 200px;
+   border-radius: 50%;
+  border: 1px solid rgb(83, 82, 80);
+
+}
+.habbits{
+
+   display: flex;
+   flex-direction:row;
+   justify-content: space-evenly;
+   text-align: center;
+}
+
+.video-button{
+
+   height: 40px;
+   width: 40px;
+    color:rgb(16, 54, 97);
+    background-color: tomato;
+    border-radius: 50%;
+
+}
+
+#run-photo{
+
+   height: 250px;
+   width: 250px;
+   border-radius: 30px;
+}
+
+.run-and-extra{
+
+   margin-top: 100px;
+height: 250px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 30px 30px;
+backdrop-filter: blur(24px);
+border-right-color: #afa6a6;
+
+background-color: rgb(74, 74, 75);
+border-radius: 12px;
+
+
+}
+
+.run-and-extra-part{
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+
+
+/* training and exercise  */
+
+
+.training-exercise{
+
+   margin-top: 100px;
+}
+
+.training-six-photo{
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   border-radius: 10px;
+}
+
+.training-six-photo img{
+
+   height: 100%;
+   width: 100%;
+}
+
+.six-photo-div{
+   
+ margin-top: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+ margin-left:;
+}
+
+
+
+/* BMI */
+
+
+.h3{
+
+   font-size: 20px;
+   font-weight: 800px;
+   margin-top:50px;
+   text-align: center;
+}
+
+.bmi{
+
+   display:;
+   flex-direction: ;
+   justify-content: space-evenly;
+   margin-top: 100px;
+   height: 1200px;
+   background-color:rgb(74, 74, 75);
+   width:
+   margin-right: ;
+  
+   
+}
+
+table , th , td{
+
+        
+            border: 1px solid rgb(116, 111, 111);
+            border-collapse: collapse;
+            padding: 10px 10px;
+
+}
+
+.table{
+
+   margin-top:70px;
+   text-align: center;
+   margin-left: 70px;
+}
+
+
+td{
+
+   color: rgb(163, 167, 167);
+}
+
+
+
+
+/* for form */
+
+.first-two-form{
+
+display: flex;
+
+  
+}
+
+.second-two-form{
+
+   display: flex;
+   margin-top: 5px;
+   
+}
+
+
+#sex-type{
+
+width: 177px;
+height: 46px;
+border-radius: 10px;
+background-color: #6d6d6d;
+color: white;
+}
+
+
+
+
+#third-form{
+
+   height: 40px;
+   width: 354px;
+   border-radius: 10px;
+   margin-top: 5px;
+   background-color: #6d6d6d;
+   color: white;
+
+}
+
+
+
+
+#hwa{
+
+   height: 40px;
+
+   border-radius: 10px;
+
+ 
+}
+
+
+.form-container{
+
+
+
+
+
+
+
+}
+
+#Calculate-button{
+
+
+   margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* meet our team */
+.meet-heading-paragraph{
+
+   text-align: center;
+
+   margin-top: 100px;
+}
+
+
+.trainer-six-photo{
+
+
+  
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      border-radius: 10px;
+      gap: 20px;
+       padding: 20px 20px;
+       background-color: rgb(39, 38, 38);
+      
+
+
+   
+}
+
+
+.trainer-six-photo img{
+
+   height: 200px;
+   width: 310px;
+   border-radius: 20px;
+ 
+  
+}
+
+
+
+/* footer */
+
+.footer{
+
+   margin-top: 100px;
+   display: grid;
+   grid-template-columns: 1.8fr .6fr .6fr ;
+   justify-content: center;
+}
+
+#fitness{
+  
+    font-size: 100px;
+   color: tomato;
+   font-weight: 900px;
+}
+
+.h4{
+
+   font-size: 30px;
+}
+
+
+
+
+/* last-footer */
+
+.a-line{
+
+   height: .1px;
+   border: .1px solid grey;
+   opacity: 40%;
+   margin-top: 100px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+}
+.p2{
+
+   text-align: center;
+   color: rgb(67, 99, 131);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Resposive area  */
+
+@media screen and ( max-width:576px){
+
+   body{
+      background-color: 
+      margin: 0px;
+      padding: 20px;
+
+   
+   }
+
+   /* nav */
+
+
+   .nav-options{
+
+
+      display: none;
+   }
+    
+   .nav-logo{
+
+      font-size: 30px;
+      font-weight:bold;
+      color: tomato;
+
+   }
+
+
+   
+    /* joining part  */
+
+   
+
+.Joining-part{
+
+   margin-top: 50px;
+   
+    display:;
+    flex-direction: ;
+    justify-content:;
+    gap: px;
+
+}
+
+
+
+
+.joining-options{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-top: ;
+
+ 
+   
+}
+
+.options-h2{
+
+   font-size: 30px;
+   font-weight:bold;
+   
+}
+
+.options-p{
+
+   color: rgb(138, 123, 123);
+   margin-top: 
+   margin-bottom: 50px;
+}
+
+.joining-two-buttons{
+
+
+   display: flex;
+   margin-left: px;
+   gap:10px;
+}
+
+.joining-button{
+
+   height: 40px;
+   width: 180px;
+   border-radius: 30px;
+   color: white;
+   background-color: tomato;
+ 
+}
+
+.button-join{
+  width: 200px;
+   height: 40px;
+   background-color: tomato;
+   border-radius: 30px;
+
+}
+#button-download{
+background-color:#353131; 
+border: 1px solid white;
+}
+
+
+.joining-photo{
+
+ height: 400px;
+ width: 200px;
+  background-image: url(./images/joiningphoto.png);
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  margin-top: -100px;
+ 
+}
+
+.joining-token{
+
+   height: 40px;
+   width: 80px;
+   border: 2px solid white;
+   border-radius: 10px;
+   align-content: center;
+   backdrop-filter:blur(24px);
+}
+
+
+
+#joining-token1{
+
+  margin-left: 230px;
+  margin-top: 200px;
+
+
+text-align:center;
+align-items: center;
+padding: 5px 5px;
+padding:5px;
+
+
+
+}
+
+
+#joining-token2{
+  
+margin-top: 250px;
+margin-left: 10px;
+display: flex;
+
+padding:5px 5px;
+text-align: center;
+padding:5px;
+
+
+
+}
+
+.circle{
+height: 40px;
+width: 40px;
+background-color: tomato;
+border-radius: 70%;
+
+}
+
+.joining-token{
+  
+  flex-direction: row;
+  justify-content: space-between;
+ 
+
+}
+
+.h2{
+
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.habbit-title{
+
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+
+/* end joining part  */
+
+
+
+/* habit part  */
+
+
+.habbits img{
+   margin-top: 0px;
+    height:150px; 
+    width: 150px;
+    border-radius: 50%;
+   border: 1px solid rgb(83, 82, 80);
+ 
+ }
+ .habbits{
+ 
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ 
+ .video-button{
+ 
+    height: 40px;
+    width: 40px;
+     
+     background-color: tomato;
+     border-radius: 50%;
+     align-items: center;
+     margin-left: 50px;
+ 
+ }
+
+.icon-h2{
+
+   font-size: 20px;
+}
+.icon-p{
+
+   font-size: 10px;
+}
+
+
+
+
+ 
+ #run-photo{
+ 
+    height: 150px;
+    width: 250px;
+    border-radius: 30px;
+ }
+ 
+ .run-and-extra{
+ 
+    margin-top: 100px;
+ height: 400px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding: 30px 30px;
+ backdrop-filter: blur(24px);
+ border-right-color: #afa6a6;
+ 
+ background-color: rgb(74, 74, 75);
+ border-radius: 12px;
+ align-items: center;
+ margin-right: 20px;
+ 
+ 
+ }
+ 
+ .run-and-extra-part{
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ 
+ }
+
+ #run-button{
+
+
+ }
+
+
+/* training and exercises */
+
+
+.training-exercise{
+
+   margin-top: 100px;
+}
+
+.training-six-photo{
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   border-radius: 10px;
+}
+
+.training-six-photo img{
+
+   height: 100%;
+   width: 100%;
+}
+
+.six-photo-div{
+   
+ margin-top: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+ margin-right: 40px;
+}
+
+
+
+
+/* bmi */
+
+.bmi{
+
+
+   height: 800px;
+}
+
+.first-two-form{
+
+   margin-left: 15px;
+}
+.second-two-form{
+
+   margin-left: 15px;
+}
+.third-form{
+
+   margin-left: 15px;
+}
+
+#Calculate-button{
+
+   margin-left:15px ;
+}
+
+
+
+
+/* meet our team */
+
+
+
+.meet-heading-paragraph{
+
+   text-align: center;
+
+   margin-top: 100px;
+}
+
+
+.trainer-six-photo{
+
+
+  
+
+      display: grid;
+      grid-template-columns: 1fr ;
+      border-radius: 10px;
+      gap: 20px;
+       padding: 20px 20px;
+       background-color: rgb(39, 38, 38);
+      
+
+
+   
+}
+
+
+.trainer-six-photo img{
+
+   height: 200px;
+   width: 310px;
+   border-radius: 20px;
+ 
+  
+}
+
+
+
+/* footer */
+
+
+.footer{
+
+   margin-top: 100px;
+   display: grid;
+   grid-template-columns: 1fr ;
+   justify-content: center;
+}
+
+#fitness{
+  
+    font-size: 100px;
+   color: tomato;
+   font-weight: 900px;
+}
+
+.h4{
+
+   font-size: 30px;
+}
+
+
+
+.icon{
+
+display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+}
